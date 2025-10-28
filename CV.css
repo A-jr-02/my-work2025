@@ -1,0 +1,65 @@
+body{
+border-style: groove;
+background-color: rgb(223, 228, 227);
+
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(237, 59, 14);
+    text-align: left;
+    text-decoration: underline;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: blue;
+    text-decoration: underline;
+}
+        table{
+            background-color: rgb(223, 228, 225);
+            border-collapse: collapse;
+            padding: 5px;
+
+        }
+    .main{
+        border: rgb(0, 255, 64) solid 5px;
+        display: flex;
+        justify-content: space-between;
+        font-language-override: calc(italic);
+    }
+    .first{
+        border: brown solid 5px;
+        flex-basis: 25%;
+        box-shadow: 5px 5px rgb(82, 79, 79);
+        border-radius: 20px;
+    }
+    .second{
+         border: rgb(69, 42, 165) solid 5px;
+         flex-basis: 45%;
+           box-shadow: 5px 5px rgb(230, 227, 165);
+           border-radius: 20px;
+    }
+    .third{
+         border: rgb(13, 49, 232) solid 5px;
+         flex-basis: 25%;
+           box-shadow: 5px 5px rgb(185, 155, 114);
+           border-radius: 20px;
+    }
+   
+   
+   .boy{
+    font-size: 30px;
+   }
+   #kk{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    justify-content: center;
+   }
+   .main:hoover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+   }
+   
